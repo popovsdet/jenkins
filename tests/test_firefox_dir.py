@@ -12,7 +12,7 @@ def test_two():
     }
 
     driver = webdriver.Remote(
-        command_executor="http://18.144.8.11:4444/wd/hub",
+        command_executor="http://18.144.86.211:4444/wd/hub",
         desired_capabilities=capabilities)
 
     driver.get('https://www.google.com/')
